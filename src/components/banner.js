@@ -1,13 +1,13 @@
-import logo from  '../assets/logo.png'
-import '../style/Banner.css'
-function Banner() {
-    const title = 'Jungle House'
-    return (
-        <div className='jh-banner'>
-            <img src={logo} alt='Jungle House' className='jh-logo' />
-            <h1 className='jh-title'>{title}</h1>
-        </div>
-    )
-}
- 
-export default Banner
+import "../styles/Banner.css";
+import logo from "../assets/logo.png";
+
+const Banner = () => {
+  return (
+    <div className="jh-banner">
+      <img src={logo} alt="Jungle house" className="jh-logo" />
+      <h1 className="jh-title">The jungle house</h1>
+    </div>
+  );
+};
+
+export default Banner;
